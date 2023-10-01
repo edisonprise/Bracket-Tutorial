@@ -1,0 +1,65 @@
+/* part 1, background color for inside & outside container*/
+*{
+    margin: 0px;
+}
+
+body{
+    margin: 5px;
+    background-color: rgb(255, 205, 129);
+}
+
+.Container{
+    display: flex;
+margin-top: 10px;
+}
+
+/* part 2, branch style, branch size & display*/
+.Branch_1{
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 20px;
+}
+
+.Branch_2{
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 20px;
+}
+
+.Branch_3{
+    height: 830px;
+    width: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 20px;
+}
+
+/* part 3, object styling*/
+
+.Object_1:nth-child(even), .Object_2:nth-child(even), .Object_3:nth-child(even){
+display:grid;
+grid-template-columns: 230px 100px;
+grid-template-rows: 50px 50px;
+background-color: rgb(153, 153, 153);
+width: 300px;
+padding-top: 4px;
+padding-left: 4px;
+}
+
+.Object_1:nth-child(odd), .Object_2:nth-child(odd), .Object_3:nth-child(odd){
+display:grid;
+grid-template-columns: 230px 100px;
+grid-template-rows: 50px 50px;
+background-color: rgb(153, 153, 153);
+width: 300px;
+padding-top: 4px;
+padding-left: 4px;
+}
+
+.Name_Forward{
+    
+}
