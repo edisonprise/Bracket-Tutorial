@@ -15,27 +15,24 @@ body{
 
 /* part 2, branch style, branch size & display*/
 .Branch_1{
-    height: 830px;
+    height: 620px;
     width: 400px;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 20px;
 }
 
 .Branch_2{
-    height: 830px;
+    height: 620px;
     width: 400px;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 20px;
 }
 
 .Branch_3{
-    height: 830px;
+    height: 620px;
     width: 400px;
     flex-wrap: wrap;
     display: flex;
-    margin-left: 20px;
 }
 
 /* part 3, object styling*/
@@ -54,7 +51,7 @@ padding-left: 4px;
 display:grid;
 grid-template-columns: 230px 100px;
 grid-template-rows: 50px 50px;
-background-color: rgb(153, 153, 153);
+background-color: rgb(110, 110, 110);
 width: 300px;
 padding-top: 4px;
 padding-left: 4px;
@@ -86,21 +83,21 @@ select.Name{
 }
 
 .Match{
-    height:200px;
+    height:150px;
 }
 
 .Object_2{
-    margin-top: 18%;
+    margin-top: 25%;
 }
 
 .Match_02{
-    height: 415px;
+    height: 300px;
 }
 
 .Object_3{
-    margin-top: 50%;
+    margin-top: 75%;
 }
 
 .Match_03{
-    height: 830px;
+    height: 600px;
 }
