@@ -10,7 +10,7 @@ body{
 
 .Container{
     display: flex;
-margin-top: 10px;
+    margin-top: 10px;
 }
 
 /* part 2, branch style, branch size & display*/
@@ -61,5 +61,46 @@ padding-left: 4px;
 }
 
 .Name_Forward{
-    
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+/* part 4, Match data sizes*/
+select{
+    width:40px;
+    height:40px;
+    font-size:20px;
+    border-radius: 4px;
+}
+
+select.Name{
+    width: 210px;
+    height:40px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.Match{
+    height:200px;
+}
+
+.Object_2{
+    margin-top: 18%;
+}
+
+.Match_02{
+    height: 415px;
+}
+
+.Object_3{
+    margin-top: 50%;
+}
+
+.Match_03{
+    height: 830px;
 }
